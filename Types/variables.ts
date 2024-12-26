@@ -16,3 +16,12 @@ undefined;
 
 let nothing: null = null;
 let foo: undefined = undefined;
+
+// Type Inference
+let tvShow = 'Olive Kitteridge';
+tvShow = 'The Other Two';
+tvShow = false;
+
+let isFunny = false;
+isFunny = true;
+isFunny = 'asd';
