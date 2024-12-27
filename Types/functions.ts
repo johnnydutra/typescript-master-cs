@@ -33,3 +33,7 @@ function printTwice(msg: string): void {
   console.log(msg);
   console.log(msg);
 }
+
+function makeError(msg: string): never {
+  throw new Error(msg);
+}
