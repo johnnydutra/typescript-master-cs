@@ -14,3 +14,7 @@ let coordinate: { x: number; y: number } = { x: 34, y: 2 };
 function randomCoordinate(): { x: number; y: number } {
   return { x: Math.random(), y: Math.random() };
 }
+
+printName({ first: 'Mick', last: 'Jagger', age: 90 });
+const singer = { first: 'Mick', last: 'Jagger', age: 90 };
+printName(singer);
