@@ -1,8 +1,8 @@
-function square(num: number) {
+function square(num: number): number {
   return num * num;
 }
 
-function greet(person: string = 'stranger') {
+function greet(person: string = 'stranger'): string {
   return `Hi there, ${person}!`;
 }
 
@@ -12,3 +12,14 @@ square(3);
 greet();
 greet('Tonya Harding');
 doSomething('ChickenFace', 78, false);
+
+function rando(num: number) {
+  if (Math.random() < 0.5) {
+    return num.toString();
+  }
+  return num;
+}
+
+const add = (x: number, y: number): number => {
+  return x + y;
+};
