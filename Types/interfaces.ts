@@ -10,10 +10,14 @@ interface Person {
   first: string;
   last: string;
   nickname?: string;
+  sayHi: () => string;
 }
 
 const thomas: Person = {
   first: 'Thomas',
   last: 'Hardy',
   id: 21836,
+  sayHi: () => {
+    return 'Hello!';
+  },
 };
