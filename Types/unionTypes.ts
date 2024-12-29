@@ -38,3 +38,18 @@ const things: (number | string)[] = [2, 'asd'];
 const coords: (Point | Loc)[] = [];
 coords.push({ lat: 321.213, lng: 23.334 });
 coords.push({ x: 213, y: 31 });
+
+let zero: 0 = 0;
+let mood: 'Happy' | 'Sad' = 'Happy';
+mood = 'Sad';
+
+type DayOfWeek =
+  | 'Monday'
+  | 'Tuesday'
+  | 'Wednesday'
+  | 'Thursday'
+  | 'Friday'
+  | 'Saturday'
+  | 'Sunday';
+
+let today: DayOfWeek = 'Sunday';
