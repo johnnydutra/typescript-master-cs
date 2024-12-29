@@ -18,3 +18,10 @@ const myStatus = OrderStatus.DELIVERED;
 function isDelivered(status: OrderStatus) {
   return status === OrderStatus.DELIVERED;
 }
+
+enum ArrowKeys {
+  UP = 'up',
+  DOWN = 'down',
+  RIGHT = 'right',
+  LEFT = 'left',
+}
