@@ -70,3 +70,25 @@ const chewy: ServiceDog = {
   },
   job: 'guide dog',
 };
+
+interface Human {
+  name: string;
+}
+
+interface Employee {
+  readonly id: number;
+  email: string;
+}
+
+interface Engineer extends Human, Employee {
+  level: string;
+  languages: string[];
+}
+
+const pierre: Engineer = {
+  name: 'Pierre',
+  id: 25674,
+  email: 'pierre@test.com',
+  level: 'senior',
+  languages: ['javascript', 'java'],
+};
